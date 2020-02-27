@@ -5,13 +5,13 @@ void main() {
   test('Deposit money', () {
     final account = Account();
     account.deposit(100);
-    expect(account.balance, account.balance);
+    expect(account.balance, 100);
   });
 
   test('Withdraw money', () {
     final account = Account();
     account.deposit(100);
     account.withdraw(10);
-    expect(account.balance, account.balance);
+    expect(account.balance, 90);
   });
 }
