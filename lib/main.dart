@@ -18,10 +18,10 @@ class MyWidget extends StatelessWidget {
       title: 'Flutter Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter Test cases'),
+          title: Text(title),
         ),
         body: Center(
-          child: Text('I must pass this test'),
+          child: Text(message),
         ),
       ),
     );
